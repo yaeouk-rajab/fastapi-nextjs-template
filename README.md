@@ -8,11 +8,15 @@ removed; what remains is the plumbing every project of this shape needs.
 
 ## Screenshots
 
-![Sign-in and signed-in home page](docs/screenshots/login-and-home.png)
+![Sign-in page](docs/screenshots/login.png)
 
-![API error contract in a terminal](docs/screenshots/error-contract.png)
+![Registration with a server-side validation error](docs/screenshots/register-error.png)
 
-_These images are illustrative mockups rendered from this repository's documented screens and API shapes, not captures of a running build. Regenerate or replace them with real captures once the app is running._
+![Signed-in home page](docs/screenshots/signed-in.png)
+
+![Backend JSON error contract](docs/screenshots/error-contract.png)
+
+_Real captures from a local run: the Next.js dev server in Chromium via Playwright, and `curl` against the FastAPI backend, with PostgreSQL and Redis running locally._
 
 ## What is included
 
