@@ -6,6 +6,18 @@ single JSON error contract, rate limiting, structured logging, Docker images,
 tests and CI already wired together. Everything domain-specific has been
 removed; what remains is the plumbing every project of this shape needs.
 
+## Screenshots
+
+![Sign-in page](docs/screenshots/login.png)
+
+![Registration with a server-side validation error](docs/screenshots/register-error.png)
+
+![Signed-in home page](docs/screenshots/signed-in.png)
+
+![Backend JSON error contract](docs/screenshots/error-contract.png)
+
+_Real captures from a local run: the Next.js dev server in Chromium via Playwright, and `curl` against the FastAPI backend, with PostgreSQL and Redis running locally._
+
 ## What is included
 
 Backend (`backend/`)
